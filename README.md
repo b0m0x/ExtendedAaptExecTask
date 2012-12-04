@@ -11,6 +11,16 @@ Since the original android sdk does include this option in its ant build.xml, I 
 Dependencies
 -----
 
+Add the following .jars to your build path:
+
+* anttasks.jar
+* sdklib.jar
+* common.jar
+* manifmerger.jar
+* ant.jar 
+
+All jars except ant.jar come with the android sdk and are located in the "tools/lib" folder.
+
 Install
 -----
 a) Open the project in eclipse and export it as jar. Save it under $ANDROID_SDK/tools/lib/customanttasks.jar
